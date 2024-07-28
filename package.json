@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "coverage": "npm run test:watch --coverage"
   },
   "dependencies": {
     "next": "14.2.5",
